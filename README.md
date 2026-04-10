@@ -6,7 +6,7 @@ Homebrew tap for [dexter](https://github.com/remoteoss/dexter) — a lightning-f
 
 ```sh
 brew install remoteoss/dexter/dexter
-``
+```
 
 ## Upgrade
 
