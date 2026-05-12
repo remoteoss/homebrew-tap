@@ -12,7 +12,7 @@ class Dexter < Formula
 
     on_intel do
       url "https://github.com/remoteoss/dexter/archive/refs/tags/v0.6.0.tar.gz"
-      sha256 sha256 "53344b29a92ce686383c7409bc3bc7e2c639af760cd4682d14956988b574d357"
+      sha256 "53344b29a92ce686383c7409bc3bc7e2c639af760cd4682d14956988b574d357"
       depends_on "go" => :build
     end
   end
