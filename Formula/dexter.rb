@@ -2,23 +2,23 @@ class Dexter < Formula
   desc "A lightning-fast Elixir language server"
   homepage "https://github.com/remoteoss/dexter"
   license "MIT"
-  version "0.6.0"
+  version "0.7.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/remoteoss/dexter/releases/download/v0.6.0/dexter_Darwin_arm64.tar.gz"
-      sha256 "b3bdf0fc783e059abf7670b1162c7c9fdcc815cbeaab2899781272b6ee4585f6"
+      url "https://github.com/remoteoss/dexter/releases/download/v0.7.0/dexter_Darwin_arm64.tar.gz"
+      sha256 "103d8887cbf7fcffe6d03265a1d7d9c70dca0be7b1391058b337063f91d31018"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/remoteoss/dexter/releases/download/v0.6.0/dexter_Linux_x86_64.tar.gz"
-      sha256 "78582a890739937332decd00c0b8553512f1ad526f3c414fd6d654aaebb8a2e6"
+      url "https://github.com/remoteoss/dexter/releases/download/v0.7.0/dexter_Linux_x86_64.tar.gz"
+      sha256 "60e9f87e66994d8c789d41c4b46c047257250245668468276584b89e3b4affc9"
     end
     on_arm do
-      url "https://github.com/remoteoss/dexter/releases/download/v0.6.0/dexter_Linux_arm64.tar.gz"
-      sha256 "c387f4dc14c4d6cf9c9fbd91c2ef16e0f2530c54617900635b11a4e1fe3cf2ae"
+      url "https://github.com/remoteoss/dexter/releases/download/v0.7.0/dexter_Linux_arm64.tar.gz"
+      sha256 "56d7fc367a5ba33b13993ff6adf6aefe60b4eaad4c4928404378c522bee39678"
     end
   end
 
